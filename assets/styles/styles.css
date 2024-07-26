@@ -1,3 +1,33 @@
 body {
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
+}
+
+/*
+
+Los estilos se recomienda que se agreguen en orden
+de arriba hacia abajo.
+
+*/
+
+h1 {
+  color: brown;
+}
+
+h2 {
+  color: rgb(182, 137, 2);
+}
+
+/* Clase */
+.miColorPersonalizadoParaMiH2 {
+  color: rgb(202, 0, 148);
+}
+
+img {
+  /* Haz las imagenes reducidas y agrega un efecto de que cuando pong el mouse encima, de un zoom */
+  width: 30%;
+  height: auto;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
